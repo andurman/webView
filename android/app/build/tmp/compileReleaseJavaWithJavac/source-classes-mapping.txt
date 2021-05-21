@@ -1,0 +1,9 @@
+com/webview/MainApplication.java
+ com.webview.MainApplication
+ com.webview.MainApplication$1
+com/webview/MainActivity.java
+ com.webview.MainActivity
+com/webview/BuildConfig.java
+ com.webview.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

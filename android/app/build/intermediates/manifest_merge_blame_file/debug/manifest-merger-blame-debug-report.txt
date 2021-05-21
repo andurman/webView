@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.webview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:5:5-77
+11-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:8:5-70
+15-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:8:22-68
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:9:5-80
+16-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.MICROPHONE" />
+17-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:10:5-69
+17-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:10:22-66
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:11:5-80
+18-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:11:22-77
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.75.1] /Users/oguzhan/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.75.1] /Users/oguzhan/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+20
+21    <application
+21-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:13:5-31:19
+22        android:name="com.webview.MainApplication"
+22-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:14:7-38
+23        android:allowBackup="false"
+23-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:18:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/oguzhan/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:16:7-41
+27        android:label="@string/app_name"
+27-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:15:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:17:7-52
+29        android:theme="@style/AppTheme"
+29-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:19:7-38
+30        android:usesCleartextTraffic="true" >
+30-->/Users/oguzhan/dev/git/WebView/android/app/src/debug/AndroidManifest.xml:8:9-44
+31        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+31-->/Users/oguzhan/dev/git/WebView/android/app/src/debug/AndroidManifest.xml:11:9-86
+31-->/Users/oguzhan/dev/git/WebView/android/app/src/debug/AndroidManifest.xml:11:19-83
+32        <activity
+32-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:20:7-30:18
+33            android:name="com.webview.MainActivity"
+33-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:21:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+34-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:23:9-86
+35            android:label="@string/app_name"
+35-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:22:9-41
+36            android:launchMode="singleTask"
+36-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:24:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:25:9-51
+38            <intent-filter>
+38-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:26:9-29:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:27:13-65
+39-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:27:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:28:13-73
+41-->/Users/oguzhan/dev/git/WebView/android/app/src/main/AndroidManifest.xml:28:23-70
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+46            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+46-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+47            android:authorities="com.webview.fileprovider"
+47-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+48            android:exported="false"
+48-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+49            android:grantUriPermissions="true" >
+49-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+50            <meta-data
+50-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+52                android:resource="@xml/file_provider_paths" />
+52-->[:react-native-webview] /Users/oguzhan/dev/git/WebView/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+53        </provider>
+54    </application>
+55
+56</manifest>

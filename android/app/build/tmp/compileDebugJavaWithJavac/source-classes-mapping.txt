@@ -1,0 +1,14 @@
+com/webview/MainApplication.java
+ com.webview.MainApplication
+ com.webview.MainApplication$1
+com/webview/MainActivity.java
+ com.webview.MainActivity
+com/webview/BuildConfig.java
+ com.webview.BuildConfig
+com/webview/ReactNativeFlipper.java
+ com.webview.ReactNativeFlipper
+ com.webview.ReactNativeFlipper$1
+ com.webview.ReactNativeFlipper$2
+ com.webview.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
